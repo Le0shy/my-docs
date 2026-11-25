@@ -75,8 +75,8 @@ params:
     #   reasons: true
 
   # Optional repository links. Uncomment after creating your own repository.
-  # github_repo: https://github.com/OWNER/REPOSITORY
-  # github_branch: main
+  github_repo: https://github.com/Le0shy/my-docs
+  github_branch: main
 
   # Optional brand assets. The starter already supplies a neutral logo.
   # logo: icons/logo.svg
