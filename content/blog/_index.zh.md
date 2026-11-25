@@ -1,8 +1,8 @@
 ---
 title: 博客
-description: 文章、设计记录与版本公告。
+description: 随笔、观点与短札记。
 type: blog
-icon: fa-solid fa-blog
+icon: fa-solid fa-pen-nib
 sidebar_root_for: self
 sidebar_root_link_self: true
 menus:
@@ -15,4 +15,4 @@ cascade:
   reading_time: true
 ---
 
-通过文章、设计决策与版本说明了解项目进展。
+想到什么写什么——长篇随笔与短札记。

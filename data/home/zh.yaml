@@ -2,36 +2,36 @@ sections: [hero, cards, cta]
 
 hero:
   align: center
-  eyebrow: 开源项目起步模板
+  eyebrow: hongyu 的写作空间
   title_lines:
-    - words: [{ text: 你的项目， }]
-    - words: [{ text: 清楚讲明白。 }]
-  lead: 一个可以直接修改的项目首页，容纳文档、动态与长篇指南。
+    - words: [{ text: 写下来， }]
+    - words: [{ text: 找得回。 }]
+  lead: 随笔、关于数据库系统与云数仓的知识库，以及我在意的音乐、电影与书。
   actions:
-    - { label: 阅读文档, url: docs/, icon: fa-solid fa-book, style: primary }
-    - { label: 跟随教程, url: book/, icon: fa-solid fa-arrow-right, style: ghost }
+    - { label: 读博客, url: blog/, icon: fa-solid fa-pen-nib, style: primary }
+    - { label: 浏览知识库, url: kb/, icon: fa-solid fa-database, style: ghost }
 
 cards:
-  eyebrow: 从清晰结构开始
-  title: 每类内容都有自己的位置
+  eyebrow: 三个书架
+  title: 这里有什么
   columns: 3
   items:
     - title: 博客
-      desc: 发布文章、设计记录与版本公告。
+      desc: 随笔、观点与短札记。
       icon: fa-solid fa-pen-nib
       url: blog/
-    - title: 文档
-      desc: 按简介、快速上手、教程与参考组织资料。
-      icon: fa-solid fa-book-open
-      url: docs/
-    - title: 书籍
-      desc: 用连续的阅读体验讲清一套完整工作流。
-      icon: fa-solid fa-graduation-cap
-      url: book/
+    - title: 知识库
+      desc: 数据管理领域的论文笔记、概念、系统内部与行业史。
+      icon: fa-solid fa-database
+      url: kb/
+    - title: 评论
+      desc: 音乐、电影与书的标记和评论。
+      icon: fa-solid fa-star
+      url: reviews/
 
 cta:
-  title: 把这个模板变成你的站点。
-  text: 修改项目名称与网址，替换示例文案，然后发布。
-  label: 开始使用
-  url: docs/get-started/
+  title: 在找特定内容？
+  text: 每一页都可搜索、打了标签并相互链接。
+  label: 浏览标签
+  url: tags/
   style: primary

@@ -1,8 +1,7 @@
-# OINK Starter — the only site configuration file.
-# Change the two marked values first; everything else builds as-is.
+# Site configuration for hongyu's writing hub (OINK theme on Hugo).
 
-title: &siteTitle Project Name # CHANGE ME: one shared title for every language
-baseURL: https://example.org/ # CHANGE ME: canonical production URL
+title: &siteTitle hongyu
+baseURL: https://hongyu.org/
 defaultContentLanguage: en
 enableGitInfo: true
 enableRobotsTXT: true
@@ -16,7 +15,7 @@ languages:
     weight: 1
     title: *siteTitle
     params:
-      description: Documentation, updates, and guides for your project.
+      description: Essays, a knowledge base on data systems, and reviews of music, film and books.
   zh:
     label: 简体中文
     locale: zh-CN
@@ -24,14 +23,15 @@ languages:
     title: *siteTitle
     hasCJKLanguage: true
     params:
-      description: 你的项目文档、动态与指南。
-  fr:
-    label: Français
-    locale: fr-FR
-    weight: 3
-    title: *siteTitle
-    params:
-      description: Documentation, actualités et guides de votre projet.
+      description: 随笔、数据系统知识库，以及音乐、电影与书的评论。
+
+# tags/categories are Hugo defaults; series links multi-part posts;
+# venues groups paper notes by conference or journal (SIGMOD, VLDB, ...).
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+  venue: venues
 
 # OINK's Markdown components depend on these three Goldmark settings.
 markup:
@@ -53,7 +53,7 @@ outputs:
 params:
   offline_search: true
   copyright:
-    authors: Project contributors
+    authors: hongyu
     from_year: 2026
   footer_center_info: ''
   ui:
@@ -63,6 +63,9 @@ params:
     sidebar_menu_foldable: true
     sidebar_icon_policy: groups
     backlinks: true
+    taxonomy_icons:
+      venues: fa-solid fa-building-columns
+      series: fa-solid fa-layer-group
     # theme_color: '#245f94'
     # typography: system
     # image_zoom: true

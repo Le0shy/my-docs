@@ -2,36 +2,36 @@ sections: [hero, cards, cta]
 
 hero:
   align: center
-  eyebrow: Open-source project starter
+  eyebrow: hongyu's writing hub
   title_lines:
-    - words: [{ text: Your project. }]
-    - words: [{ text: Clearly documented. }]
-  lead: A ready-to-edit home for documentation, project updates, and long-form guides.
+    - words: [{ text: Write it down. }]
+    - words: [{ text: Find it again. }]
+  lead: Essays, a knowledge base on database systems and cloud warehouses, and reviews of the music, films and books I care about.
   actions:
-    - { label: Read the docs, url: docs/, icon: fa-solid fa-book, style: primary }
-    - { label: Follow the tutorial, url: book/, icon: fa-solid fa-arrow-right, style: ghost }
+    - { label: Read the blog, url: blog/, icon: fa-solid fa-pen-nib, style: primary }
+    - { label: Browse the knowledge base, url: kb/, icon: fa-solid fa-database, style: ghost }
 
 cards:
-  eyebrow: Start with structure
-  title: Everything has a place
+  eyebrow: Three shelves
+  title: What lives here
   columns: 3
   items:
     - title: Blog
-      desc: Publish posts, design notes, and release announcements.
+      desc: Essays, opinions and short notes on anything.
       icon: fa-solid fa-pen-nib
       url: blog/
-    - title: Docs
-      desc: Organize reference material as Introduction, Get Started, Tutorial, and Reference.
-      icon: fa-solid fa-book-open
-      url: docs/
-    - title: Book
-      desc: Teach a complete workflow in a focused, sequential reading experience.
-      icon: fa-solid fa-graduation-cap
-      url: book/
+    - title: Knowledge Base
+      desc: Paper notes, concepts, systems internals and industry history in data management.
+      icon: fa-solid fa-database
+      url: kb/
+    - title: Reviews
+      desc: Marks and reviews of music, films and books.
+      icon: fa-solid fa-star
+      url: reviews/
 
 cta:
-  title: Make this starter yours.
-  text: Change the project name and URL, replace the sample copy, and publish.
-  label: Get started
-  url: docs/get-started/
+  title: Looking for something specific?
+  text: Every page is searchable, tagged and cross-linked.
+  label: Browse tags
+  url: tags/
   style: primary

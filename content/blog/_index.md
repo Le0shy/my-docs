@@ -1,8 +1,8 @@
 ---
 title: Blog
-description: Posts, design notes, and release announcements.
+description: Essays, opinions and short notes on anything.
 type: blog
-icon: fa-solid fa-blog
+icon: fa-solid fa-pen-nib
 sidebar_root_for: self
 sidebar_root_link_self: true
 menus:
@@ -15,4 +15,4 @@ cascade:
   reading_time: true
 ---
 
-Follow the project through articles, design decisions, and release notes.
+Writing on whatever is on my mind — long essays and short notes.

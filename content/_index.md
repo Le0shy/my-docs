@@ -1,4 +1,4 @@
 ---
-title: Project Name
-description: Documentation, updates, and a practical guide for your project.
+title: hongyu
+description: A personal writing hub — essays, a knowledge base on data systems, and notes on music, film and books.
 ---
