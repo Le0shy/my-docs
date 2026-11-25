@@ -1,7 +1,7 @@
 # Site configuration for hongyu's writing hub (OINK theme on Hugo).
 
 title: &siteTitle hongyu
-baseURL: https://hongyu.org/
+baseURL: https://le0shy.github.io/my-docs/
 defaultContentLanguage: en
 enableGitInfo: true
 enableRobotsTXT: true
