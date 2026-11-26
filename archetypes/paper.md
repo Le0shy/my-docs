@@ -31,7 +31,6 @@ draft: true
 
 ## How it connects {#connections}
 
-<!-- Link related concepts and systems with relref, e.g.
-[columnar storage]({{< relref "/kb/concepts/columnar-storage" >}}) -->
+<!-- Link related concepts and systems with relref; see README "Write something". -->
 
 ## Open questions {#questions}
