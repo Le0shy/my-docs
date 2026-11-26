@@ -7,7 +7,8 @@ paper:
   authors: []
   venue: ""      # e.g. SIGMOD, VLDB, CIDR, ICDE, OSDI
   year: 0
-  url: ""        # DOI or PDF
+  url: ""        # DOI or public link
+  pdf: "{{ .File.ContentBaseName }}.pdf" # local copy in library/ (not published)
 venues: []       # same as paper.venue, so it appears under /venues/
 tags: []         # e.g. query-optimization, storage, cloud-warehouse
 status: reading  # reading | read | revisit

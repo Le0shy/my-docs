@@ -39,10 +39,20 @@ New pages start as `draft: true`; delete that line to publish.
 - Link pages: `[MVCC]({{< relref "/kb/concepts/mvcc" >}})` — linked pages show backlinks automatically.
 - Sub-folders in `kb/` (e.g. `kb/concepts/storage/`) need an `_index.md` to show up in the sidebar.
 
+## Paper library (private)
+
+`library/` is a separate private repo with the PDFs and AI-generated study notes. This repo ignores it. On a new machine:
+
+```bash
+git clone https://github.com/Le0shy/my-docs-library.git library
+```
+
+Drop a PDF in as `library/<slug>.pdf`, then make searchable text copies with `scripts/pdf2text.sh`. Study notes go to `library/notes/<slug>.md`; your own published note, if you write one, goes to `content/kb/papers/<slug>.md`.
+
 ## Preview and build
 
 ```bash
-hugo server -D          # preview with drafts at http://localhost:1313/
+hugo server -D          # preview with drafts at http://localhost:1313/my-docs/
 hugo --cleanDestinationDir --gc --minify --environment production \
   --printPathWarnings --panicOnWarning   # publication gate
 ```

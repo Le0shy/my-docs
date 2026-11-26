@@ -9,6 +9,7 @@ paper:
   venue: SIGMOD
   year: 2016
   url: https://doi.org/10.1145/2882903.2903741
+  pdf: snowflake-elastic-data-warehouse.pdf
 venues: [SIGMOD]
 tags: [cloud-warehouse, storage-compute-separation, columnar]
 status: reading
